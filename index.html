@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="copyright">
+        <h2 class="k">© Vahe</h2>
+        <h2 class="kk">Hayra</h2>
+        <h2 class="c">petyan</h2>
+    </div>
+    <div class="information">
+        <span class="back">ԵՏ</span>
+        <h1>Click Army</h1>
+        <h2>Խաղը սկսելու համար պետք է գրանցվեն 2 խաղացող, որից հետո կտցնեն "CLICK ME" կոճակին խաղը սկսելու համար, խաղի իմաստը կայանում է նրանում թե այդ երկու խաղացողներից որ մեկը ավելի շատ կսեղմի կոճակը 5 վարկյանում</h2>
+        <h3>The game was created by © Vahe Hayrapetyan</h3>
+    </div>
+    <div class="menu">
+        <h1 class="title">Click Army</h1>
+        <button class="start button">Խաղալ</button>
+        <button class="info button">Ինֆո</button>
+        <img src="img/200.gif" alt="">
+    </div>
+
+    <div class="gamestart">
+        <span class="backtomenu">ԵՏ</span>
+        <div class="div1">
+            <label for="player1" class="label1">Առաջին խաղացող</label>
+            <input type="text" id="player1" maxlength="12">
+            <button class="reg1">ԳՐԱՆՑՎԵԼ</button>
+        </div>
+        <div class="div2">
+            <label for="player2" class="label2">Երկրորդ խաղացող</label>
+            <input type="text" id="player2" maxlength="12">
+            <button class="reg2">ԳՐԱՆՑՎԵԼ</button>
+        </div>
+        <button class="goToGame">Սկսել խաղը</button>
+    </div>
+
+    <main class="game">
+        <span class="back">ԵՏ</span>
+        <div class="hert"></div>
+        <div class="nextPlayer">Հաջորդ խաղացող</div>
+
+        <div id="display">5</div>
+
+        <button id="button">CLICK ME</button>
+
+        <!-- <div id="counter"><span></span></div> -->
+
+    </main>
+
+    <div class="gameItog">
+        <div class="leftSolider">
+            <h2 class="display">13</h2>
+            <img src="img/shooting_solider.gif" alt="">
+        </div>
+        <div class="rightSolider">
+            <h2 class="display">13</h2>
+            <img src="img/shooting_solider.gif" alt="">
+        </div>
+        <div class="background"></div>
+    </div>
+
+    <div class="replace">
+        <button>Սկսել նորից</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
